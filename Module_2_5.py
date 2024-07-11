@@ -3,7 +3,7 @@ def get_matrix(n, m, value):
     if value <= 0:
         return matrix
     for i in range(n):
-        matrix.append([i])
+        matrix.append([])
         for j in range(m):
             matrix[-1].append(value)
 
